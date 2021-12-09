@@ -1,4 +1,4 @@
-var longestIncreasingPath = function (matrix) {
+const longestIncreasingPath = function (matrix) {
   let pathTable = [];
   let max = 0;
   function dfs(x, y, val) {
